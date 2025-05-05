@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Imran | Backend Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f4f6f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(90deg, #007bff, #6610f2);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.3em;
+      font-weight: 300;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 2em;
+      color: #007bff;
+      border-left: 5px solid #6610f2;
+      padding-left: 15px;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      background: #ffffff;
+      margin: 10px 0;
+      padding: 12px 20px;
+      border-left: 4px solid #007bff;
+      border-radius: 5px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+
+    .project {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .project:hover {
+      transform: scale(1.02);
+    }
+
+    .project h3 {
+      color: #343a40;
+      margin-bottom: 10px;
+    }
+
+    .project a {
+      color: #007bff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .project a:hover {
+      text-decoration: underline;
+    }
+
+    #contact p, #contact a {
+      font-size: 1.1em;
+      margin-top: 10px;
+    }
+
+    #contact a {
+      color: #6610f2;
+      text-decoration: none;
+    }
+
+    #contact a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #343a40;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+      section {
+        padding: 30px 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hi, I'm Imran</h1>
+    <p>Backend Developer</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Backend Developer with a focus on building secure and scalable Node.js applications. Experienced in MongoDB, JWT authentication, RESTful APIs, and integrating third-party services like email and event data providers.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>JavaScript</li>
+      <li>Node.js</li>
+      <li>HTML</li>
+      <li>MongoDB</li>
+      <li>Express</li>
+      <li>Git</li>
+      <li>Talend API</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Authentication System</h3>
+      <p>A secure Node.js authentication system using JWT and MongoDB with email notifications.</p>
+      <a href="https://github.com/imran1905/auth-system" target="_blank">GitHub Link</a>
+    </div>
+    <div class="project">
+      <h3>Crypto Events Aggregator</h3>
+      <p>Fetches and stores crypto event data from APIs and RSS feeds into MongoDB for analysis.</p>
+      <a href="https://github.com/imran1905/crypto-events" target="_blank">GitHub Link</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:imranultimez@gmail.com">imranultimez@gmail.com</a></p>
+    <p>
+      <a href="https://www.linkedin.com/in/imran-m-252323364" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/imran1905" target="_blank">GitHub</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Imran</p>
+  </footer>
+</body>
+</html>
